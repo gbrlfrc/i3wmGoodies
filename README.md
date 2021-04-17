@@ -8,4 +8,6 @@ The `config` file contains all shortcuts and hotkeys in order to manage i3wm wrk
 `.xinit` file takes care of the i3wwm startup, managing wallpaper and keyboard language. Add it in your home directory.
 </br></br>
 `network.py` is a simple python script to scan and connect to nearby network via wpa_supplicant module
-##requirements
+
+## requirements
+`pip install -r requirements.txt`
