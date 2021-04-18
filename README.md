@@ -9,5 +9,10 @@ The `config` file contains all shortcuts and hotkeys in order to manage i3wm wrk
 </br></br>
 `network.py` is a simple python script to scan and connect to nearby network via wpa_supplicant module
 
+# usage
+`# python network.py arg`</br>
+`\t -n, --new`: scan for nerby wifi networks and connect to it (wifi network interface with: `$ ip link`)
+`\t -c, --connect`: enable network interface and connect to a saved network
+
 ## requirements
 `pip install -r requirements.txt`
