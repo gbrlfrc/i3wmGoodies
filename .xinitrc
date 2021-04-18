@@ -4,7 +4,7 @@
 #set keybopard language
 setxkbmap it
 #use feh to set wallpaper
-feh --bg-scale /home/gabriele/Immagini/wall/wall_main.jpg
+feh --bg-scale ~/Immagini/wall/wall_main.jpg
 
 dbus-update-activation-environment --systemd DISPLAY
 eval $(/usr/bin/gnome-keyring-daemon --start --components=pkcs11,secrets,ssh)
