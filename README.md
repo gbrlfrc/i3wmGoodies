@@ -11,8 +11,8 @@ The `config` file contains all shortcuts and hotkeys in order to manage i3wm wrk
 
 # usage
 `# python network.py arg`</br>
-`\t -n, --new`: scan for nerby wifi networks and connect to it (wifi network interface with: `$ ip link`)
-`\t -c, --connect`: enable network interface and connect to a saved network
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`-n, --new`: scan for nerby wifi networks and connect to it (wifi network interface with: `$ ip link`)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`-c, --connect`: enable network interface and connect to a saved network
 
 ## requirements
 `pip install -r requirements.txt`
