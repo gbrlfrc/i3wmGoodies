@@ -12,9 +12,9 @@ The `config` file contains all shortcuts and hotkeys in order to manage i3wm wrk
 `.vimrc` contain some setting to make vim a bit more usable
 
 # usage
-`# python network.py arg`</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`-n, --new`: scan for nerby wifi networks and connect to it (wifi network interface with: `$ ip link`)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`-c, --connect`: enable network interface and connect to a saved network
+`python network.py arg`</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__-n, --new__: scan for nerby wifi networks and connect to it (wifi network interface with: `ip link`)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;__-c, --connect__: enable network interface and connect to a saved network
 
 ## requirements
 `pip install -r requirements.txt`
