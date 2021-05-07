@@ -13,8 +13,8 @@ In order to enable network interface just run: `python network.py arg`</br>
 * __-c, --connect__: enable network interface and connect to a saved network<br>
 
 About vim PlugIn you need to add VimPlug: <br>
-`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ <br>
- https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`<br>
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \` <br>
+ `https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`<br>
  <br>
  Once edited the __.vimrc__ file, from vim compile it with: `:source %` and install plugIn with `:PlugInstall`.<br>
  __YouCompleteMe__ extension require manual installation, from terminal just run:<br>
