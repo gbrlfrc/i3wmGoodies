@@ -2,10 +2,10 @@
 Standard configuration file for i3wm tiling window manager and vim configuration
 
 # setup
-* The `config` file contains all shortcuts and hotkeys in order to manage i3wm wrkospaces and container navigations. Just add it in `~/.config/i3/` direcotry
-* The`.xinit` file takes care of the i3wwm startup, managing wallpaper and keyboard language, will be automatically loaded after login. Add this file into your `/home/$USER` direcotry 
-* The `network.py` is a simple python script to scan and connect to nearby network via wpa_supplicant module
-* The `.vimrc` contain some setting to make vim a bit more usable
+* The __config__ file contains all shortcuts and hotkeys in order to manage i3wm wrkospaces and container navigations. Just add it in `~/.config/i3/` direcotry
+* The __.xinit__ file takes care of the i3wwm startup, managing wallpaper and keyboard language, will be automatically loaded after login. Add this file into your `/home/$USER` direcotry 
+* The __network.py__ is a simple python script to scan and connect to nearby network via wpa_supplicant module
+* The __.vimrc__ contain some setting to make vim a bit more usable
 
 # usage
 In order to enable network interface just run: `python network.py arg`</br>
