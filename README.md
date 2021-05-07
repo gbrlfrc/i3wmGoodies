@@ -12,9 +12,20 @@ The `config` file contains all shortcuts and hotkeys in order to manage i3wm wrk
 `.vimrc` contain some setting to make vim a bit more usable
 
 # usage
-`python network.py arg`</br>
+In order to enable network interface just run: `python network.py arg`</br>
 * __-n, --new__: scan for nerby wifi networks and connect to it (wifi network interface with: `ip link`)</br>
-* __-c, --connect__: enable network interface and connect to a saved network
+* __-c, --connect__: enable network interface and connect to a saved network<br>
 
+About vim PlugIn you need to add VimPlug: <br>
+`curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`<br>
+ <br>
+ Once edited the __.vimrc__ file, from vim compile it with: `:source %` and install plugIn with `:PlugInstall`.<br>
+ __YouCompleteMe__ extension require manual installation, from terminal just run:<br>
+ `./~/.vim/plugged/YouCompleteMe/install.py`.
+ <br><br>
+ Finally to let __UndoTree__ plugIn loads buffer jsut run:<br>
+ `mkdir ~/.vim/undodir`
+ 
 ## requirements
 `pip install -r requirements.txt`
