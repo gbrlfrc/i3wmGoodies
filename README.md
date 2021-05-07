@@ -20,7 +20,7 @@ About vim PlugIn you need to add VimPlug: <br>
  __YouCompleteMe__ extension require manual installation, from terminal just run:<br>
  `./~/.vim/plugged/YouCompleteMe/install.py`.
  <br><br>
- Finally to let __UndoTree__ plugIn loads buffer jsut run:<br>
+ Finally to create __UndoTree__ buffer jsut run:<br>
  `mkdir ~/.vim/undodir`
  
 ## requirements
